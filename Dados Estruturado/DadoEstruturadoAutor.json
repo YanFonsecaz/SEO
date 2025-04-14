@@ -1,0 +1,25 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Fluxo Consultoria",
+    "url": "https://fluxoconsultoria.poli.ufrj.br/blog/",
+    "image": "https://fluxoconsultoria.poli.ufrj.br/wp-content/uploads/2022/06/NOVA-IV-FLUXO-04-e1654829698463-300x153.png.webp",
+    "sameAs": [
+      "https://linktr.ee/fluxoconsultoria?fbclid=IwY2xjawGxjSJleHRuA2FlbQIxMAABHczpemO6FDsUmwWOCjXhkfQTECJi0AdPWDX-iTJstFIkakbtNGQrekc1CA_aem_vxXRG5gNyfATBRzVvnyk1Q",
+      "https://www.facebook.com/fluxoconsultoria",
+      "https://www.instagram.com/fluxoconsultoria/",
+      "fluxo@poli.ufrj.br"
+    ],
+    "description": "A Fluxo Consultoria, da UFRJ, entrega há 30 anos projetos de Engenharia acessíveis, reinvestindo toda receita na educação de seus membros",
+    "knowsLanguage": ["Portuguese", "English"],
+    "birthPlace": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Av. Athos da Silveira Ramos, 149 - Cidade Universitária",
+        "addressRegion": "RJ",
+        "addressCountry": "BR"
+      }
+    }
+  }
+  

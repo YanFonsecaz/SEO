@@ -1,0 +1,24 @@
+//<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "StayCloud",
+  "Description": "O que é hospedagem dedicada e quais são seus benefícios?",
+  "url": "https://staycloud.com.br/",
+  "logo": "https://staycloud.com.br/wp-content/uploads/2023/10/logo-staycloud-alta-performance.svg",
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+55-11-91313-7045",
+    "areaServed": "BR",
+    "availableLanguage": "Portuguese"
+  }],
+  "sameAs": [
+    "https://www.instagram.com/staycloudbr/",
+    "https://api.whatsapp.com/send?phone=5511990000109&text=Estou%20com%20d%C3%BAvidas,%20preciso%20falar%20com%20um%20atendente..."
+  ]
+}
+//</script>
+
+
+Emcompre - 
+Abrir  o Ticket na Digital HUB, Stakeholders: Será comunicado pelo João na reunião.

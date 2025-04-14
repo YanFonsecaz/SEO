@@ -1,0 +1,56 @@
+<div class="bg-white faq-perguntas-frequentes">
+	<div class="conteudo-duvidas">
+		<div class="wrapper">
+			<div class="row no-gutters justify-content-center">
+				<div class="col-12 col-lg-10">
+					<div class="row no-gutters meus-pedidos" data-filtro="meus-pedidos">
+						<div class="content">
+							<ul>
+								<li>
+									<div class="titulo">
+										<strong>Como escolher um colchão solteiro?</strong>
+									</div>
+									<div class="texto">
+										<p>
+											Para escolher um colchão de solteiro, é importante que você leve em consideração algumas dicas infalíveis que farão total diferença na hora da sua compra:
+										</p>
+										<ol>
+											<li><strong>Tire medidas do seu quarto:</strong> saiba as medidas de todo ambiente, inclusive da porta e do espaço entre os <a target="_blank" rel="noopener noreferrer" href="http://schumann.com.br/moveis">móveis</a> para ter certeza que o colchão cabe;</li>
+											<li><strong>Escolha o material:</strong> opte por espumas ou molas de acordo com a sua necessidade;</li>
+											<li><strong>Veja o peso que o colchão aguenta:</strong> colchão D23 para 60 kg, colchão D28 para 80 kg, colchão D33 para 100 kg e colchão D45 para 150 kg;</li>
+											<li><strong>Confira a resistência e a durabilidade: </strong>veja se o produto precisa de muitas manutenções e o tempo de vida útil.</li>
+										</ol>
+									</div>
+								</li>
+								<li>
+									<div class="titulo">
+										<strong>Como sei sobre as atualizações de status do pedido?</strong>
+									</div>
+									<div class="texto">
+										<p>
+											Sempre que seu pedido conclui uma etapa no processo de compra, um aviso é disparado para o e-mail cadastrado na conta. Cada etapa demanda de um prazo específico e podem variar de acordo com o produto comprado.
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+	$(document).ready(function(){
+		$('.conteudo-duvidas .content ul li').on('click', function(){
+			$(this).toggleClass('active');
+		});
+		
+		$('.perguntas-frequentes .header-duvidas ul li').on('click', function(){
+			$('html,body').animate({
+				scrollTop: $('body.perguntas-frequentes #middle #content-wrapper .conteudo-duvidas').offset().top - 100 }, 500);
+			});
+		});
+	
+</script>

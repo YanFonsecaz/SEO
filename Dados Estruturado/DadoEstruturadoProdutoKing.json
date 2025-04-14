@@ -1,0 +1,49 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Cadeira Gamer King House",
+  "image": [
+    "https://www.kinghouse.com.br/media/catalog/product/cache/1/image/800x/9df78eab33525d08d6e5fb8d27136e95/r/a/ravello-azul-276-01.jpg"
+  ],
+  "description": "Sofá Cama Baú Ravello Sem Caixa Linho Rústico - King House",
+  "sku": "KG-12345",
+  "brand": {
+    "@type": "Brand",
+    "name": "King House"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.kinghouse.com.br/sofa-cama-bau-retratil-reclinavel-ravello-sem-caixa-linho-king-house.html?tamanho=367&color=353",
+    "priceCurrency": "BRL",
+    "price": "2.330,99",
+    "itemCondition": "https://schema.org/NewCondition",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "King House"
+    }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "128"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "João Silva"
+      },
+      "datePublished": "2024-03-28",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "O sofa é muito confortável e tem um ótimo acabamento!"
+    }
+  ]
+}
+</script>

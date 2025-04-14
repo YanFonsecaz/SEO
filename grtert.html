@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel Horizontal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #340368;
+        }
+        .carousel-wrapper {
+            position: relative;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .carousel-container {
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            width: 100%;
+        }
+        .carousel {
+            display: flex;
+            transition: transform 0.3s ease-in-out;
+            scroll-behavior: smooth;
+            overflow-x: auto;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+        .carousel::-webkit-scrollbar {
+            display: none;
+        }
+        .item {
+            padding: 10px 20px;
+            white-space: nowrap;
+            cursor: pointer;
+            color: #340368;
+            font-weight: bold;
+            flex: 0 0 auto;
+        }
+        .arrows-container {
+            position: absolute;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            top: 50%;
+            transform: translateY(-50%);
+            pointer-events: none;
+        }
+        .arrow {
+            cursor: pointer;
+            font-size: 24px;
+            color: white;
+            background: none;
+            border: none;
+            pointer-events: all;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="carousel-wrapper">
+        <div class="arrows-container">
+            <button class="arrow arrow-left" onclick="scrollCarousel(-1)">&#9665;</button>
+            <button class="arrow arrow-right" onclick="scrollCarousel(1)">&#9655;</button>
+        </div>
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+                <div class="item" onclick="moveItem(this)">Hotéis e Pousadas</div>
+                <div class="item" onclick="moveItem(this)">Igrejas e Templos Religiosos</div>
+                <div class="item" onclick="moveItem(this)">Lavanderias</div>
+                <div class="item" onclick="moveItem(this)">Oficinas</div>
+                <div class="item" onclick="moveItem(this)">Padarias e Confeitarias</div>
+                <div class="item" onclick="moveItem(this)">Pet Shop e Veterinária</div>
+                <div class="item" onclick="moveItem(this)">Postos de Combustíveis</div>
+                <div class="item" onclick="moveItem(this)">Serviços Gerais</div>
+                <div class="item" onclick="moveItem(this)">Supermercados</div>
+                <div class="item" onclick="moveItem(this)">Academias</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function scrollCarousel(direction) {
+            const carousel = document.getElementById('carousel');
+            const scrollAmount = 200;
+            carousel.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+        }
+
+        function moveItem(item) {
+            const carousel = document.getElementById('carousel');
+            const itemOffset = item.offsetLeft;
+            carousel.scrollTo({ left: itemOffset - 50, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>

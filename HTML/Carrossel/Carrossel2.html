@@ -1,0 +1,205 @@
+<div style="padding: 50px 0 0 0;">
+    <p>Categorias relacionadas</p>
+</div>
+
+<section class="carrossel-cats" style="
+  background-color: #ffffff;
+">
+    <!-- Botão de navegação anterior -->
+    <button class="carousel-button prev-button">◀</button>
+
+    <!-- Container de itens do carrossel -->
+    <div class="carousel-container" >
+        <div class="carousel-slide" >
+            <!-- Itens do carrossel -->
+            <div class="carousel-item" style="
+  background-color: #e3ddc0;">
+                <a target="_blank" href="https://www.papelcraft.com.br/roupas/blusas-femininas" class="carousel-link"
+                    rel="noopener">
+                    <img src="https://papelcraft.vtexassets.com/arquivos/ids/192307-500-auto?v=638481875604200000&width=500&height=auto&aspect=true"
+                        alt="Blusas">
+                    <div class="text-shadow" style="color: #ffffff;"> Blusas Femininas elegantes e versáteis na Papel
+                        Craft!</div>
+
+                </a>
+            </div>
+
+            <div class="carousel-item"  style="
+  background-color: #9d0c0e;">
+                <a target="_blank" href="https://www.papelcraft.com.br/roupas/vestidos-e-macacoes-femininos"
+                    class="carousel-link" rel="noopener">
+                    <img src="https://papelcraft.vtexassets.com/arquivos/ids/189689-500-auto?v=638355907356000000&width=500&height=auto&aspect=true"
+                        alt="Vestidos e Macacões">
+                    <div class="text-shadow" style="color: #ffffff;">Vestidos e macacões femininos: compre seus
+                        preferidos na Papel Craft!</div>
+                </a>
+            </div>
+
+            <div class="carousel-item"  style="
+  background-color: #9d0c0e;">
+                <a target="_blank" href="https://www.papelcraft.com.br/roupas/calcas-e-saias-femininas"
+                    class="carousel-link" rel="noopener">
+                    <img src="https://papelcraft.vtexassets.com/arquivos/ids/187849-500-auto?v=638321108685270000&width=500&height=auto&aspect=true"
+                        alt="Calças e Saias">
+                    <div class="text-shadow" style="color: #ffffff;">Calças e saias femininas estilosas e elegantes na
+                        Papel Craft!</div>
+                </a>
+            </div>
+
+            <div class="carousel-item"  style="
+  background-color: #9d0c0e;">
+                <a target="_blank" href="https://www.papelcraft.com.br/roupas/casacos-femininos" class="carousel-link"
+                    rel="noopener">
+                    <img src="https://papelcraft.vtexassets.com/arquivos/ids/192267-500-auto?v=638479233298200000&width=500&height=auto&aspect=true"
+                        alt="Casacos">
+                    <div class="text-shadow" style="color: #ffffff;">Casacos femininos Papel Craft: cores e modelos para
+                        todos os gostos!</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Botão de navegação próximo -->
+    <button class="carousel-button next-button">▶</button>
+</section>
+
+<style>
+    .carrossel-cats {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        padding: 20px 0;
+    }
+
+    .carousel-button {
+        background-color: #ffffff;
+        border: none;
+        cursor: pointer;
+        font-size: 1.5rem;
+    }
+
+    .carousel-container {
+        overflow: hidden;
+        width: 1024px;
+    }
+
+    .carousel-slide {
+        display: flex;
+        transition: transform 0.5s ease;
+    }
+
+    .carousel-item {
+        flex: none;
+        margin: 0 10px;
+        border-radius: 10px;
+        overflow: hidden;
+        height: 300px;
+        width: 335px;
+        position: relative;
+    }
+
+    .carousel-link {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        color: #1a1a1a;
+        font-weight: bold;
+        font-size: large;
+        position: relative;
+    }
+
+    .carousel-link img {
+        width: 300px;
+        height: 200px;
+        object-fit: contain;
+        padding-bottom: 35px;
+    }
+
+    .carousel-link span {
+        position: absolute;
+        font-size: 1.6rem;
+        top: 29%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #470305;
+    }
+
+    .carousel-item {
+        position: relative;
+        border-radius: 10px;
+        /* arredondamento opcional */
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 1), 0 6px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .text-shadow {
+        color: #ffffff;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        /* sombra escura para as letras */
+        font-size: 1.1rem;
+        /* ajuste o tamanho se necessário */
+        font-weight: bold;
+    }
+
+    .carousel-button {
+        background-color: #000;
+        /* Cor de fundo preta */
+        color: #fff;
+        /* Cor da seta branca para contraste */
+        border: none;
+        /* Remover bordas */
+        cursor: pointer;
+        /* Alterar o cursor para pointer */
+        padding: 10px 15px;
+        /* Ajustar o espaçamento */
+        font-size: 1.5rem;
+        /* Tamanho da seta */
+        border-radius: 60%;
+        /* Forma arredondada */
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+        /* Adicionar sombra */
+        transition: transform 0.2s;
+        /* Suavizar animação de clique */
+    }
+
+    .carousel-button:hover {
+        transform: scale(1.1);
+        /* Leve zoom ao passar o mouse */
+    }
+
+    .carousel-button:active {
+        transform: scale(0.95);
+        /* Leve redução ao clicar */
+    }
+</style>
+<script>
+    const prevButton = document.querySelector('.prev-button');
+    const nextButton = document.querySelector('.next-button');
+    const carouselSlide = document.querySelector('.carousel-slide');
+    const carouselItems = document.querySelectorAll('.carousel-item');
+    const itemWidth = carouselItems[0].offsetWidth + 20; // Inclui margem
+    let currentPosition = 0;
+
+    // Função para mover o carrossel
+    function updateCarouselPosition() {
+        carouselSlide.style.transform = `translateX(-${currentPosition}px)`;
+    }
+
+    // Clique para navegar para trás
+    prevButton.addEventListener('click', () => {
+        if (currentPosition > 0) {
+            currentPosition -= itemWidth;
+            updateCarouselPosition();
+        }
+    });
+
+    // Clique para navegar para frente
+    nextButton.addEventListener('click', () => {
+        if (currentPosition < (carouselItems.length - 3) * itemWidth) {
+            currentPosition += itemWidth;
+            updateCarouselPosition();
+        }
+    });
+</script>

@@ -1,0 +1,19 @@
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://www.tudobeloestetica.com.br/",
+    "name": "Tudo Belo Estética",
+    "description": "Produtos para Profissionais da Saúde Estética. Eletroterapia, Injetáveis, Móveis, Equipamentos, Descartáveis. Tudo para sua clínica!",
+    "image": "https://www.tudobeloestetica.com.br/media/logo/stores/1/Tudobelo_topo.jpeg",
+    "sameAs": [
+      "https://www.instagram.com/tudobeloestetica/",
+      "https://www.facebook.com/tudobeloestetica",
+      "https://www.linkedin.com/company/tudo-belo-estetica",
+      "https://www.youtube.com/c/tudobeloestetica/videos"
+    ],
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.tudobeloestetica.com.br/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }

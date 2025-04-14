@@ -1,0 +1,123 @@
+<div class="bg-white faq-perguntas-frequentes">
+	<div class="conteudo-duvidas">
+		<div class="wrapper">
+			<div class="row no-gutters justify-content-center">
+				<div class="col-12 col-lg-10">
+					<div class="row no-gutters meus-pedidos" data-filtro="meus-pedidos">
+						<div class="content">
+							<ul>
+								<li>
+									<div class="titulo">
+										<h2>Quantos kg a máquina precisa para lavar edredom?</h2>
+									</div>
+									<div class="texto">
+										<p>Para peças volumosas, como cobertores, edredons e cortinas, a máquina de
+											lavar ideal é aquela com capacidade acima de 12 kg! Se você é do time que
+											gosta de manter essas peças sempre exalando o cheiro de amaciante pela casa,
+											então os modelos de lavadora de roupas de maior capacidade serão perfeitos
+											pra atender às suas necessidades.</p>
+								</li>
+								<li>
+									<div class="titulo">
+										<h2>Como limpar a máquina de lavar roupa?</h2>
+									</div>
+									<div class="texto">
+										<h3>1. Reúna os materiais necessários</h3>
+										<ul>
+											<li>Vinagre branco (1 litro);</li>
+											<li>Bicarbonato de sódio (½ xícara);</li>
+											<li>Pano macio ou esponja;</li>
+											<li>Escova de dentes velha (para áreas difíceis de alcançar);</li>
+											<li>Água quente.</li>
+										</ul>
+										<h3>2. Desligue a máquina e esvazie-a</h3>
+										<ul>
+											<li>Certifique-se de que a máquina está desconectada da tomada e sem roupas
+												ou água no interior.</li>
+										</ul>
+										<h3>3. Limpeza do filtro e gaveta de sabão</h3>
+										<ul>
+											<li>Remova o filtro localizado na parte inferior da máquina;</li>
+											<li>Lave-o sob água corrente, removendo fiapos e sujeira;</li>
+											<li>Retire a gaveta de sabão, lave-a com água quente e escove resíduos
+												acumulados.</li>
+										</ul>
+										<h3>4. Limpeza do tambor</h3>
+										<ul>
+											<li>Despeje 1 litro de vinagre branco diretamente no tambor da máquina;</li>
+											<li>Adicione ½ xícara de bicarbonato de sódio no compartimento de sabão.
+											</li>
+											<li>Programe a máquina para um ciclo completo (sem roupas dentro);</li>
+											<li>Coloque na temperatura mais alta possível (caso haja essa função na
+												máquina, mas se não houver, não impacta na limpeza);</li>
+											<li>Deixe o ciclo terminar sem interrupções.</li>
+										</ul>
+										<h3>6. Limpeza das borrachas e vedação</h3>
+										<ul>
+											<li>Use um pano macio embebido em vinagre branco para limpar as borrachas ao
+												redor da porta.</li>
+											<li>Use a escova de dentes velha para áreas de difícil acesso.</li>
+										</ul>
+										<h3>7. Limpeza externa</h3>
+										<ul>
+											<li>Passe um pano úmido com água na parte externa da máquina;</li>
+											<li>Seque bem com um pano limpo.</li>
+										</ul>
+										<h3>8. Manutenção regular</h3>
+										<ul>
+											<li>Repita o processo de limpeza profunda uma vez por mês;</li>
+											<li>Deixe a tampa da máquina aberta após cada uso para evitar mofo e odores.
+											</li>
+										</ul>
+									</div>
+								<li>
+									<div class="titulo">
+										<h2>O que preciso saber antes de comprar uma máquina de lavar roupa?</h2>
+									</div>
+									<div class="texto">
+										<p>Nós sabemos que a máquina de lavar roupa é um investimento e, por isso,
+											precisamos estar bem preparados ao escolhê-la e comprá-la. Confira os pontos
+											abaixo pra saber como fazer a escolha certa pro seu lar:</p>
+										<ul>
+											<li>Considere a capacidade, sendo a indicação de 6 a 9 kg para 1 a 2
+												pessoas, 9 a 12 kg para 3 a 4 pessoas e mais de 13 kg para mais de 5
+												pessoas;</li>
+											<li>O tipo de máquina também é importante, sendo a automática (prática) e a
+												semiautomática (custo menor, mas exige trabalho manual);</li>
+											<li>Considere a eficiência energética e, para isso, verifique o selo Procel
+												(Classificação Energética A) para economia de luz e água;</li>
+											<li>Se você prioriza recursos extras, veja se a máquina contém programas
+												específicos, ciclo rápido, turbo lavagem e água quente;</li>
+											<li>Considere o espaço disponível na sua lavanderia para escolher o modelo
+												ideal em termos de medidas.</li>
+										</ul>
+										<p>Conte com a Schumann para ter os melhores eletrodomésticos e móveis em seu
+											lar! Aproveite para conferir nossas opções de <a target="_blank"
+												rel="noopener noreferrer"
+												href="https://www.schumann.com.br/eletrodomesticos/centrifuga-de-roupas">centrífugas
+												de roupas</a> também. Boas compras!</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+	$(document).ready(function () {
+		$('.conteudo-duvidas .content ul li').on('click', function () {
+			$(this).toggleClass('active');
+		});
+
+		$('.perguntas-frequentes .header-duvidas ul li').on('click', function () {
+			$('html,body').animate({
+				scrollTop: $('body.perguntas-frequentes #middle #content-wrapper .conteudo-duvidas').offset().top - 100
+			}, 500);
+		});
+	});
+
+</script>

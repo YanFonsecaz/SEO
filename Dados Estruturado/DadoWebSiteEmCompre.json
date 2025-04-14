@@ -1,0 +1,21 @@
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://emcompre.com.br/",
+    "name": "Emcompre",
+    "description": "Com produtos modernos e confortáveis que transformam seu lar, nosso convite é que você redescubra o prazer de estar em casa. Acesse a Emcompre e confira nossos produtos!",
+    "image": "https://emcompre.com.br/static/version1732801002/frontend/DigitalHub/Emcompre/pt_BR/images/logo.svg",
+    "sameAs": [
+      "https://www.instagram.com/lojaemcompre/",
+      "https://www.youtube.com/@emcompre",
+      "https://www.facebook.com/emcompre",
+      "https://api.whatsapp.com/send?phone=5544988059010&text=Ol%C3%A1!%20",
+      "https://www.linkedin.com/company/emcompre/",
+      "https://www.tiktok.com/@emcompre"
+    ],
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://emcompre.com.br/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }

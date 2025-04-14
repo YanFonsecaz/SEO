@@ -1,0 +1,25 @@
+
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Fluxo Consultoria",
+    "url": "https://fluxoconsultoria.poli.ufrj.br/",
+    "logo": "https://fluxoconsultoria.poli.ufrj.br/wp-content/uploads/2022/06/NOVA-IV-FLUXO-04-e1654829698463-300x153.png.webp",
+    "image": "https://fluxoconsultoria.poli.ufrj.br/wp-content/uploads/2022/06/NOVA-IV-FLUXO-04-e1654829698463-300x153.png.webp",
+    "description": "Projetos de engenharia com alta qualidade e custo abaixo do mercado. Soluções personalizadas para você e seu negócio.",
+    "telephone": "+55-21-96986-5927",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Athos da Silveira Ramos, 149",
+      "addressLocality": "Rio de Janeiro",
+      "addressRegion": "RJ",
+      "postalCode": "21941-611",
+      "addressCountry": "BR"
+    },
+    "sameAs": [
+        "fluxo@poli.ufrj.br",
+        "https://www.instagram.com/fluxo_ufrj/",
+        "https://www.facebook.com/fluxoconsultoria",
+        "https://br.linkedin.com/company/fluxo-consultoria"
+    ]
+}

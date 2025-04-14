@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel de Avaliações</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white; /* Fundo branco */
+            color: black;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Estilos do carrossel */
+        .swiper-container {
+            width: 40%; /* Largura reduzida */
+            max-width: 400px; /* Máximo de 400px */
+        }
+
+        /* Slide individual */
+        .swiper-slide {
+            background: white; /* Fundo branco */
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            border: 2px solid gold; /* Borda dourada */
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25); /* Sombra forte */
+        }
+
+        .stars {
+            color: gold;
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .date {
+            font-size: 14px;
+            color: #4b0082; /* Roxo */
+            font-weight: bold;
+        }
+
+        .review-text {
+            font-size: 16px;
+            margin: 10px 0;
+            min-height: 60px;
+            color: black;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        .user-info img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+            border: 2px solid gold; /* Borda dourada */
+        }
+
+        .user-name {
+            font-weight: bold;
+            color: #4b0082; /* Roxo */
+        }
+
+        .user-location {
+            font-size: 14px;
+            color: black;
+            opacity: 0.7;
+        }
+
+        /* Estilização dos botões de navegação */
+        .swiper-button-prev, .swiper-button-next {
+            color: gold; /* Dourado */
+        }
+
+        .swiper-pagination-bullet {
+            background: #4b0082; /* Roxo */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+                <div class="stars">★★★★★</div>
+                <div class="date">08/09/2023</div>
+                <div class="review-text">Muito excelente, melhor preço e prazo de entrega em uma semana!</div>
+                <div class="user-info">
+                    <img src="https://i.pravatar.cc/40?img=10" alt="Avatar">
+                    <div>
+                        <div class="user-name">Priscila F.</div>
+                        <div class="user-location">São Paulo/SP</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+                <div class="stars">★★★★★</div>
+                <div class="date">23/05/2024</div>
+                <div class="review-text">Experiência excelente!</div>
+                <div class="user-info">
+                    <img src="https://i.pravatar.cc/40?img=5" alt="Avatar">
+                    <div>
+                        <div class="user-name">Jeanne A.</div>
+                        <div class="user-location">Aperibé/RJ</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+                <div class="stars">★★★★★</div>
+                <div class="date">19/12/2023</div>
+                <div class="review-text">Ótima!</div>
+                <div class="user-info">
+                    <img src="https://i.pravatar.cc/40?img=3" alt="Avatar">
+                    <div>
+                        <div class="user-name">Brunna E.</div>
+                        <div class="user-location">Montes Claros/MG</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Botões de navegação -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- Paginação -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".swiper-container", {
+            loop: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+</body>
+</html>
+
+</body>
+</html>

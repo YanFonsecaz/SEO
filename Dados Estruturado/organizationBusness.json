@@ -1,0 +1,39 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "SONCO",
+  "image": "https://www.soncocrowdcontrol.com/_ipx/s_156x48/images/headerv2/logo_sonco_main.svg",
+  "url": "https://www.soncocrowdcontrol.com/",
+  "logo": "https://www.soncocrowdcontrol.com/_ipx/s_156x48/images/headerv2/logo_sonco_main.svg",
+  "telephone": "(888) 308-9096",
+  "priceRange": "$$$",
+  "description": "Crowd Control & Perimeter Security Solutions | Sonco",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua C-155 N. 784 (esq. Av. T-63)",
+    "addressLocality": "Jardim América",
+    "addressRegion": "GO",
+    "postalCode": "74275-150",
+    "addressCountry": "BR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "-16.689967",
+    "longitude": "-49.259605"
+  },
+  "openingHours": "Mo-Fr 09:00-18:00",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "866-970-2969",
+    "contactType": "customer service",
+    "availableLanguage": ["Portuguese"]
+  },
+  "sameAs": [
+    "https://www.instagram.com/soncosafetymarketplace/",
+    "https://www.facebook.com/soncocrowdcontrol/",
+    "https://www.linkedin.com/company/soncostore.com/",
+    "https://www.youtube.com/@soncosafetymarketplace"
+  ]
+}
+</script>
