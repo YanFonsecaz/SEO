@@ -1,0 +1,283 @@
+<style>
+    /* Oculta a scrollbar no Safari/Chrome */
+    .categoria-bar::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Responsividade para desktop - evita corte dos balões */
+    @media (min-width: 1201px) {
+        .categoria-bar {
+            padding: 0 24px !important;
+            justify-content: flex-start !important;
+        }
+
+        .categoria-bar a {
+            flex-shrink: 0;
+            min-width: fit-content;
+        }
+    }
+
+    /* Responsividade para tablets e desktops menores */
+    @media (min-width: 769px) and (max-width: 1200px) {
+        .categoria-bar {
+            padding: 0 20px !important;
+            justify-content: flex-start !important;
+        }
+
+        .categoria-bar a {
+            flex-shrink: 0;
+            min-width: fit-content;
+        }
+    }
+
+    /* Responsividade para dispositivos móveis */
+    @media (max-width: 768px) {
+        .categoria-bar {
+            padding: 0 8px !important;
+        }
+
+        .categoria-bar a {
+            padding: 8px 14px !important;
+            margin-right: 8px !important;
+            font-size: 13px !important;
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .categoria-bar a {
+            padding: 6px 12px !important;
+            margin-right: 6px !important;
+            font-size: 12px !important;
+        }
+    }
+
+    /* Efeitos de hover e interação */
+    .categoria-bar a {
+        transition: all 0.3s ease;
+    }
+
+    .categoria-bar a:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(94, 45, 145, 0.2);
+    }
+
+    .categoria-bar a.active {
+        background: #5e2d91 !important;
+        color: #fff !important;
+        border-color: #5e2d91 !important;
+    }
+</style>
+
+<!-- Barra de Categorias Estética Tudo Belo - Responsiva, Centralizada e com Fonte Original -->
+<div style="width: 100%; background-color: #f5f5f5; border-bottom: 1px solid #ddd; padding: 12px 0;">
+    <div class="categoria-bar" style="
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding: 0 16px;
+    cursor: grab;
+    ">
+        <a href="https://www.tudobeloestetica.com.br/injetaveis-estetica/toxina-botulinica"
+            style="font-family: inherit; display:inline-block; color:#5e2d91; background:#fff; padding:10px 18px; margin-right:12px; border-radius:50px; text-decoration:none; font-weight:500; border:1px solid #ddd; font-size:15px;">Toxina
+            Botulínica</a>
+
+        <a href="https://www.tudobeloestetica.com.br/injetaveis-estetica/bioestimuladores"
+            style="font-family: inherit; display:inline-block; color:#5e2d91; background:#fff; padding:10px 18px; margin-right:12px; border-radius:50px; text-decoration:none; font-weight:500; border:1px solid #ddd; font-size:15px;">Bioestimuladores</a>
+
+        <a href="https://www.tudobeloestetica.com.br/injetaveis-estetica/preenchedores"
+            style="font-family: inherit; display:inline-block; color:#5e2d91; background:#fff; padding:10px 18px; margin-right:12px; border-radius:50px; text-decoration:none; font-weight:500; border:1px solid #ddd; font-size:15px;">Preenchedores</a>
+
+        <a href="https://www.tudobeloestetica.com.br/eletroterapia/maquina-depilacao-laser"
+            style="font-family: inherit; display:inline-block; color:#5e2d91; background:#fff; padding:10px 18px; margin-right:12px; border-radius:50px; text-decoration:none; font-weight:500; border:1px solid #ddd; font-size:15px;">Máquinas
+            de Depilação a Laser</a>
+
+        <a href="https://www.tudobeloestetica.com.br/eletroterapia/aparelho-criolipolise"
+            style="font-family: inherit; display:inline-block; color:#5e2d91; background:#fff; padding:10px 18px; margin-right:12px; border-radius:50px; text-decoration:none; font-weight:500; border:1px solid #ddd; font-size:15px;">Aparelhos
+            de Criolipólise</a>
+
+        <a href="https://www.tudobeloestetica.com.br/eletroterapia/maquina-laser-remocao-tatuagem"
+            style="font-family: inherit; display:inline-block; color:#5e2d91; background:#fff; padding:10px 18px; margin-right:12px; border-radius:50px; text-decoration:none; font-weight:500; border:1px solid #ddd; font-size:15px;">Laser
+            de Remoção de Tatuagem</a>
+
+        <a href="https://www.tudobeloestetica.com.br/eletroterapia/aparelho-laser-fracionado-co2"
+            style="font-family: inherit; display:inline-block; color:#5e2d91; background:#fff; padding:10px 18px; margin-right:12px; border-radius:50px; text-decoration:none; font-weight:500; border:1px solid #ddd; font-size:15px;">Laser
+            Fracionado de CO₂</a>
+
+        <a href="https://www.tudobeloestetica.com.br/eletroterapia/aparelho-radiofrequencia"
+            style="font-family: inherit; display:inline-block; color:#5e2d91; background:#fff; padding:10px 18px; margin-right:12px; border-radius:50px; text-decoration:none; font-weight:500; border:1px solid #ddd; font-size:15px;">Aparelhos
+            de Radiofrequência</a>
+
+        <a href="https://www.tudobeloestetica.com.br/eletroterapia/aparelho-alta-frequencia"
+            style="font-family: inherit; display:inline-block; color:#5e2d91; background:#fff; padding:10px 18px; margin-right:12px; border-radius:50px; text-decoration:none; font-weight:500; border:1px solid #ddd; font-size:15px;">Aparelhos
+            de Alta Frequência</a>
+
+        <a href="https://www.tudobeloestetica.com.br/eletroterapia/aparelho-vapor-ozonio"
+            style="font-family: inherit; display:inline-block; color:#5e2d91; background:#fff; padding:10px 18px; margin-right:12px; border-radius:50px; text-decoration:none; font-weight:500; border:1px solid #ddd; font-size:15px;">Aparelhos
+            de Vapor de Ozônio</a>
+
+        <a href="https://www.tudobeloestetica.com.br/eletroterapia/aparelho-correntes-multicorrentes"
+            style="font-family: inherit; display:inline-block; color:#5e2d91; background:#fff; padding:10px 18px; margin-right:12px; border-radius:50px; text-decoration:none; font-weight:500; border:1px solid #ddd; font-size:15px;">Aparelhos
+            de Correntes e Multicorrentes</a>
+
+        <a href="https://www.tudobeloestetica.com.br/eletroterapia/aparelho-ultrassom"
+            style="font-family: inherit; display:inline-block; color:#5e2d91; background:#fff; padding:10px 18px; margin-right:12px; border-radius:50px; text-decoration:none; font-weight:500; border:1px solid #ddd; font-size:15px;">Aparelhos
+            de Ultrassom</a>
+
+        <a href="https://www.tudobeloestetica.com.br/eletroterapia/aparelhos-de-endolaser"
+            style="font-family: inherit; display:inline-block; color:#fff; background:#5e2d91; padding:10px 18px; margin-right:12px; border-radius:50px; text-decoration:none; font-weight:500; border:1px solid #5e2d91; font-size:15px;">Aparelhos
+            de Endolaser</a>
+    </div>
+</div>
+
+<script>
+    // JavaScript para interação da barra de categorias
+    document.addEventListener('DOMContentLoaded', function () {
+        const categoriaLinks = document.querySelectorAll('.categoria-bar a');
+        const categoriaBar = document.querySelector('.categoria-bar');
+
+        // Função para destacar categoria ativa
+        function setActiveCategory(activeLink) {
+            categoriaLinks.forEach(link => {
+                link.classList.remove('active');
+                // Reset styles
+                if (link !== activeLink) {
+                    link.style.background = '#fff';
+                    link.style.color = '#5e2d91';
+                    link.style.borderColor = '#ddd';
+                }
+            });
+
+            if (activeLink && !activeLink.href.includes('aparelhos-endolaser')) {
+                activeLink.classList.add('active');
+            }
+        }
+
+        // Variável para controlar se está arrastando
+        let isDragging = false;
+
+        // Event listeners para cada link
+        categoriaLinks.forEach(link => {
+            // Click event
+            link.addEventListener('click', function (e) {
+                // Previne clique se estiver arrastando
+                if (isDragging) {
+                    e.preventDefault();
+                    return;
+                }
+
+                // Remove o preventDefault para permitir redirecionamento
+                setActiveCategory(this);
+
+                // Log para debug
+                console.log('Navegando para:', this.href);
+
+                // Permite que o link funcione normalmente (redirecionamento)
+                // O navegador irá redirecionar automaticamente para this.href
+            });
+
+            // Touch events para dispositivos móveis
+            link.addEventListener('touchstart', function () {
+                this.style.transform = 'translateY(-1px)';
+            });
+
+            link.addEventListener('touchend', function () {
+                setTimeout(() => {
+                    this.style.transform = '';
+                }, 150);
+            });
+        });
+
+        // Função para scroll horizontal com mouse wheel
+        categoriaBar.addEventListener('wheel', function (e) {
+            if (e.deltaY !== 0) {
+                e.preventDefault();
+                this.scrollLeft += e.deltaY;
+            }
+        });
+
+        // Funcionalidade de arrastar com mouse (drag to scroll)
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+
+        categoriaBar.addEventListener('mousedown', function (e) {
+            isDown = true;
+            isDragging = false;
+            this.style.cursor = 'grabbing';
+            startX = e.pageX - this.offsetLeft;
+            scrollLeft = this.scrollLeft;
+            e.preventDefault();
+        });
+
+        categoriaBar.addEventListener('mouseleave', function () {
+            isDown = false;
+            this.style.cursor = 'grab';
+        });
+
+        categoriaBar.addEventListener('mouseup', function () {
+            isDown = false;
+            this.style.cursor = 'grab';
+            // Reset isDragging após um pequeno delay para evitar cliques acidentais
+            setTimeout(() => {
+                isDragging = false;
+            }, 100);
+        });
+
+        categoriaBar.addEventListener('mousemove', function (e) {
+            if (!isDown) return;
+            e.preventDefault();
+            isDragging = true;
+            const x = e.pageX - this.offsetLeft;
+            const walk = (x - startX) * 2; // Velocidade do scroll
+            this.scrollLeft = scrollLeft - walk;
+        });
+
+        // Função para detectar categoria ativa baseada na URL atual
+        function detectActiveFromURL() {
+            const currentPath = window.location.pathname;
+            categoriaLinks.forEach(link => {
+                const linkPath = new URL(link.href, window.location.origin).pathname;
+                if (currentPath === linkPath) {
+                    setActiveCategory(link);
+                }
+            });
+        }
+
+        // Detectar categoria ativa ao carregar a página
+        detectActiveFromURL();
+
+        // Função para scroll automático em dispositivos móveis
+        let isScrolling = false;
+        categoriaBar.addEventListener('scroll', function () {
+            if (!isScrolling) {
+                window.requestAnimationFrame(function () {
+                    // Adicione aqui lógica adicional se necessário
+                    isScrolling = false;
+                });
+                isScrolling = true;
+            }
+        });
+    });
+
+    // Função auxiliar para carregar conteúdo de categoria (exemplo)
+    function loadCategoryContent(categoryUrl) {
+        // Aqui você pode implementar carregamento de conteúdo via AJAX
+        console.log('Carregando conteúdo para:', categoryUrl);
+
+        // Exemplo de implementação:
+        // fetch(categoryUrl)
+        //     .then(response => response.text())
+        //     .then(html => {
+        //         document.getElementById('content-area').innerHTML = html;
+        //     })
+        //     .catch(error => console.error('Erro ao carregar conteúdo:', error));
+    }
+</script>

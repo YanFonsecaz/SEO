@@ -1,0 +1,346 @@
+<!-- Schema.org Product JSON-LD - Dados Estruturados -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org", // Define o vocabulário Schema.org que estamos usando
+      "@type": "Product", // Identifica esta entidade como um Produto
+      "name": "Creatina Monohidratada 100% Pura", // Nome completo do produto
+      "description": "Suplemento de creatina monohidratada 100% pura, ideal para ganho de massa muscular, aumento da força e melhora da performance nos treinos. Produto de alta qualidade, sem adição de açúcares ou conservantes artificiais. Recomendado para atletas e praticantes de atividade física.", // Descrição detalhada do produto
+      "image": "https://exemplo.com/creatina-frente.jpg", // Imagem principal do produto (campo obrigatório)
+      "brand": { // Informações da marca
+        "@type": "Brand",
+        "name": "NutriMax"
+    },
+      "manufacturer": { // Fabricante do produto
+        "@type": "Organization",
+        "name": "NutriMax Suplementos Ltda"
+    },
+      "additionalImages": [ // URLs das imagens adicionais do produto
+        "https://exemplo.com/creatina-verso.jpg",
+        "https://exemplo.com/creatina-tabela-nutricional.jpg"
+    ],
+      "sku": "CREAT-MONO-300G", // Código SKU interno do produto
+      "mpn": "NM-CREAT-001", // Número da peça do fabricante
+      "gtin13": "7891234567890", // Código de barras GTIN-13 (EAN)
+      "category": "Suplementos Alimentares > Creatina", // Categoria do produto
+      "weight": { // Peso do produto
+        "@type": "QuantitativeValue",
+        "value": "300",
+        "unitCode": "GRM" // Gramas
+    },
+      "offers": { // Informações da oferta/preço
+        "@type": "Offer",
+        "url": "https://exemplo.com/creatina-monohidratada", // URL da página do produto
+        "priceCurrency": "BRL", // Moeda brasileira
+        "price": "89.90", // Preço do produto
+        "priceValidUntil": "2024-12-31", // Data de validade do preço
+        "availability": "https://schema.org/InStock", // Produto em estoque
+        "itemCondition": "https://schema.org/NewCondition", // Condição: novo
+        "seller": { // Vendedor
+          "@type": "Organization",
+          "name": "NutriMax Store"
+        },
+        "shippingDetails": { // Detalhes de envio
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "15.90",
+            "currency": "BRL"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 2,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 3,
+              "maxValue": 7,
+              "unitCode": "DAY"
+            }
+          }
+        },
+        "acceptedPaymentMethod": [ // Métodos de pagamento aceitos
+          "https://schema.org/CreditCard",
+          "https://schema.org/DebitCard",
+          "https://schema.org/PaymentCard",
+          "https://schema.org/Cash",
+          "https://schema.org/CheckInAdvance",
+          "https://schema.org/COD",
+          "https://schema.org/DirectDebit",
+          "https://schema.org/GoogleCheckout",
+          "https://schema.org/PayPal",
+          "https://schema.org/PaySwarm"
+        ],
+        "paymentMethodId": [ // IDs específicos dos métodos de pagamento
+          "visa",
+          "mastercard",
+          "amex",
+          "elo",
+          "hipercard",
+          "pix",
+          "boleto",
+          "paypal",
+          "mercadopago",
+          "pagseguro"
+        ],
+        "advanceBookingRequirement": { // Requisitos de pagamento antecipado
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 0,
+          "unitCode": "DAY"
+        },
+        "eligibleTransactionVolume": { // Volume de transação elegível
+          "@type": "PriceSpecification",
+          "minPrice": "50.00",
+          "maxPrice": "5000.00",
+          "priceCurrency": "BRL"
+        },
+        "hasMerchantReturnPolicy": { // Política de devolução
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "BR",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 30,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        }
+      },
+      "aggregateRating": { // Avaliação agregada dos clientes
+        "@type": "AggregateRating",
+        "ratingValue": "4.7", // Nota média
+        "bestRating": "5", // Melhor nota possível
+        "worstRating": "1", // Pior nota possível
+        "ratingCount": "156" // Número total de avaliações
+      },
+      "review": [ // Exemplos de avaliações individuais
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "João Silva"
+          },
+          "reviewBody": "Excelente produto! Notei melhora significativa na performance dos treinos após 2 semanas de uso.",
+          "datePublished": "2024-01-15"
+        },
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "4",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Maria Santos"
+          },
+          "reviewBody": "Produto de qualidade, dissolve bem na água. Recomendo!",
+          "datePublished": "2024-01-10"
+        }
+      ],
+      "additionalProperty": [ // Propriedades adicionais específicas do produto
+        {
+          "@type": "PropertyValue",
+          "name": "Sabor",
+          "value": "Sem sabor"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Porções por embalagem",
+          "value": "60"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Quantidade por porção",
+          "value": "5g"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Registro ANVISA",
+          "value": "123.456.789-0"
+        }
+      ],
+      "audience": { // Público-alvo
+        "@type": "PeopleAudience",
+        "suggestedMinAge": 18,
+        "suggestedGender": "https://schema.org/Mixed"
+      },
+      "hasMeasurement": [ // Medidas e especificações técnicas
+        {
+          "@type": "QuantitativeValue",
+          "name": "Creatina por porção",
+          "value": "5",
+          "unitCode": "GRM"
+        }
+      ],
+      "isRelatedTo": [ // Produtos relacionados
+        {
+          "@type": "Product",
+          "name": "Whey Protein Isolado",
+          "url": "https://exemplo.com/whey-protein"
+        },
+        {
+          "@type": "Product",
+          "name": "BCAA 2:1:1",
+          "url": "https://exemplo.com/bcaa"
+        }
+      ],
+      "isAccessoryOrSparePartFor": [ // Complementa outros produtos
+        {
+          "@type": "Product",
+          "name": "Kit Ganho de Massa Muscular",
+          "url": "https://exemplo.com/kit-massa-muscular"
+        }
+      ],
+      "material": "Creatina Monohidratada", // Material principal
+      "color": "Branco", // Cor do produto
+      "pattern": "Pó fino", // Padrão/textura
+      "size": "300g", // Tamanho da embalagem
+      "width": { // Largura da embalagem
+        "@type": "QuantitativeValue",
+        "value": "10",
+        "unitCode": "CMT"
+      },
+      "height": { // Altura da embalagem
+        "@type": "QuantitativeValue",
+        "value": "15",
+        "unitCode": "CMT"
+      },
+      "depth": { // Profundidade da embalagem
+        "@type": "QuantitativeValue",
+        "value": "8",
+        "unitCode": "CMT"
+      },
+      "award": [ // Prêmios e certificações
+        "Certificado ANVISA",
+        "Selo de Qualidade NutriMax",
+        "Produto do Ano 2024 - Categoria Suplementos"
+      ],
+      "countryOfOrigin": { // País de origem
+        "@type": "Country",
+        "name": "Brasil"
+      },
+      "releaseDate": "2024-01-01", // Data de lançamento
+      "productionDate": "2024-01-15", // Data de produção
+      "expires": "2026-01-15", // Data de validade
+      "keywords": "creatina, suplemento, massa muscular, força, performance, treino, academia, fitness", // Palavras-chave
+      "slogan": "Máxima pureza, máximos resultados!", // Slogan do produto
+      "logo": { // Logo da marca
+        "@type": "ImageObject",
+        "url": "https://exemplo.com/nutrimax-logo.png",
+        "width": 200,
+        "height": 100
+      },
+      "funding": { // Informações de financiamento/investimento
+        "@type": "MonetaryAmount",
+        "currency": "BRL",
+        "value": "1000000"
+      },
+      "hasEnergyConsumptionDetails": { // Detalhes energéticos (para suplementos)
+        "@type": "EnergyConsumptionDetails",
+        "energyEfficiencyScaleMin": "A",
+        "energyEfficiencyScaleMax": "A+++"
+      },
+      "mainEntityOfPage": { // Página principal do produto
+        "@type": "WebPage",
+        "@id": "https://exemplo.com/creatina-monohidratada",
+        "url": "https://exemplo.com/creatina-monohidratada",
+        "name": "Creatina Monohidratada 100% Pura - NutriMax",
+        "description": "Página oficial do produto Creatina Monohidratada 100% Pura da NutriMax",
+        "inLanguage": "pt-BR",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "NutriMax Store",
+          "url": "https://exemplo.com"
+        }
+      },
+      "sameAs": [ // URLs em outras plataformas
+        "https://www.facebook.com/nutrimax/creatina",
+        "https://www.instagram.com/nutrimax/creatina",
+        "https://www.youtube.com/watch?v=creatina-nutrimax",
+        "https://mercadolivre.com.br/creatina-nutrimax",
+        "https://americanas.com.br/creatina-nutrimax"
+      ],
+      "potentialAction": [ // Ações possíveis
+        {
+          "@type": "BuyAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://exemplo.com/carrinho?produto=creatina",
+            "actionPlatform": [
+              "https://schema.org/DesktopWebPlatform",
+              "https://schema.org/MobileWebPlatform"
+            ]
+          },
+          "expectsAcceptanceOf": {
+            "@type": "Offer",
+            "price": "89.90",
+            "priceCurrency": "BRL"
+          }
+        },
+        {
+          "@type": "ReviewAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://exemplo.com/creatina-monohidratada#avaliacoes"
+          }
+        }
+      ],
+      "hasVariant": [ // Variações do produto
+        {
+          "@type": "ProductModel",
+          "name": "Creatina Monohidratada 150g",
+          "sku": "CREAT-MONO-150G",
+          "image": "https://exemplo.com/creatina-150g.jpg",
+          "description": "Versão de 150g da Creatina Monohidratada 100% Pura",
+          "offers": {
+            "@type": "Offer",
+            "price": "49.90",
+            "priceCurrency": "BRL"
+          }
+        },
+        {
+          "@type": "ProductModel",
+          "name": "Creatina Monohidratada 600g",
+          "sku": "CREAT-MONO-600G",
+          "image": "https://exemplo.com/creatina-600g.jpg",
+          "description": "Versão de 600g da Creatina Monohidratada 100% Pura",
+          "offers": {
+            "@type": "Offer",
+            "price": "159.90",
+            "priceCurrency": "BRL"
+          }
+        }
+      ],
+      "isSimilarTo": [ // Produtos similares
+        {
+          "@type": "Product",
+          "name": "Creatina Creapure",
+          "brand": {
+            "@type": "Brand",
+            "name": "Competitor Brand"
+          }
+        }
+      ],
+      "isConsumableFor": [ // Para que tipo de consumo
+        {
+          "@type": "Thing",
+          "name": "Treino de Força"
+        },
+        {
+          "@type": "Thing",
+          "name": "Hipertrofia Muscular"
+        },
+        {
+          "@type": "Thing",
+          "name": "Performance Atlética"
+        }
+      ]
+    }
+    </script>

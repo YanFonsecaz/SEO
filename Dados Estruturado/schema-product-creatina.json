@@ -1,0 +1,343 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Creatina Monohidratada 100% Pura",
+  "description": "Suplemento de creatina monohidratada 100% pura, ideal para ganho de massa muscular, aumento da força e melhora da performance nos treinos. Produto de alta qualidade, sem adição de açúcares ou conservantes artificiais. Recomendado para atletas e praticantes de atividade física.",
+  "image": "https://exemplo.com/creatina-frente.jpg",
+  "brand": {
+    "@type": "Brand",
+    "name": "NutriMax"
+  },
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "NutriMax Suplementos Ltda"
+  },
+  "additionalImages": [
+    "https://exemplo.com/creatina-verso.jpg",
+    "https://exemplo.com/creatina-tabela-nutricional.jpg"
+  ],
+  "sku": "CREAT-MONO-300G",
+  "mpn": "NM-CREAT-001",
+  "gtin13": "7891234567890",
+  "category": "Suplementos Alimentares > Creatina",
+  "weight": {
+    "@type": "QuantitativeValue",
+    "value": "300",
+    "unitCode": "GRM"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://exemplo.com/creatina-monohidratada",
+    "priceCurrency": "BRL",
+    "price": "89.90",
+    "priceValidUntil": "2024-12-31",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition",
+    "seller": {
+      "@type": "Organization",
+      "name": "NutriMax Store"
+    },
+    "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "15.90",
+          "currency": "BRL"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 1,
+            "maxValue": 2,
+            "unitCode": "DAY"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 3,
+            "maxValue": 7,
+            "unitCode": "DAY"
+          }
+        }
+      },
+      "acceptedPaymentMethod": [
+        "https://schema.org/CreditCard",
+        "https://schema.org/DebitCard",
+        "https://schema.org/PaymentCard",
+        "https://schema.org/Cash",
+        "https://schema.org/CheckInAdvance",
+        "https://schema.org/COD",
+        "https://schema.org/DirectDebit",
+        "https://schema.org/GoogleCheckout",
+        "https://schema.org/PayPal",
+        "https://schema.org/PaySwarm"
+      ],
+      "paymentMethodId": [
+        "visa",
+        "mastercard",
+        "amex",
+        "elo",
+        "hipercard",
+        "pix",
+        "boleto",
+        "paypal",
+        "mercadopago",
+        "pagseguro"
+      ],
+      "advanceBookingRequirement": {
+        "@type": "QuantitativeValue",
+        "minValue": 0,
+        "maxValue": 0,
+        "unitCode": "DAY"
+      },
+      "eligibleTransactionVolume": {
+        "@type": "PriceSpecification",
+        "minPrice": "50.00",
+        "maxPrice": "5000.00",
+        "priceCurrency": "BRL"
+      },
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "BR",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "merchantReturnDays": 30,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/FreeReturn"
+      }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "156"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "João Silva"
+      },
+      "reviewBody": "Excelente produto! Notei melhora significativa na performance dos treinos após 2 semanas de uso.",
+      "datePublished": "2024-01-15"
+    },
+    {
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "4",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Maria Santos"
+      },
+      "reviewBody": "Produto de qualidade, dissolve bem na água. Recomendo!",
+      "datePublished": "2024-01-10"
+    }
+  ],
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "Sabor",
+      "value": "Sem sabor"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Porções por embalagem",
+      "value": "60"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Quantidade por porção",
+      "value": "5g"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Registro ANVISA",
+      "value": "123.456.789-0"
+    }
+  ],
+  "audience": {
+    "@type": "PeopleAudience",
+    "suggestedMinAge": 18,
+    "suggestedGender": "https://schema.org/Mixed"
+  },
+  "hasMeasurement": [
+    {
+      "@type": "QuantitativeValue",
+      "name": "Creatina por porção",
+      "value": "5",
+      "unitCode": "GRM"
+    }
+  ],
+  "isRelatedTo": [
+    {
+      "@type": "Product",
+      "name": "Whey Protein Isolado",
+      "url": "https://exemplo.com/whey-protein"
+    },
+    {
+      "@type": "Product",
+      "name": "BCAA 2:1:1",
+      "url": "https://exemplo.com/bcaa"
+    }
+  ],
+  "isAccessoryOrSparePartFor": [
+    {
+      "@type": "Product",
+      "name": "Kit Ganho de Massa Muscular",
+      "url": "https://exemplo.com/kit-massa-muscular"
+    }
+  ],
+  "material": "Creatina Monohidratada",
+  "color": "Branco",
+  "pattern": "Pó fino",
+  "size": "300g",
+  "width": {
+    "@type": "QuantitativeValue",
+    "value": "10",
+    "unitCode": "CMT"
+  },
+  "height": {
+    "@type": "QuantitativeValue",
+    "value": "15",
+    "unitCode": "CMT"
+  },
+  "depth": {
+    "@type": "QuantitativeValue",
+    "value": "8",
+    "unitCode": "CMT"
+  },
+  "award": [
+    "Certificado ANVISA",
+    "Selo de Qualidade NutriMax",
+    "Produto do Ano 2024 - Categoria Suplementos"
+  ],
+  "countryOfOrigin": {
+    "@type": "Country",
+    "name": "Brasil"
+  },
+  "releaseDate": "2024-01-01",
+  "productionDate": "2024-01-15",
+  "expires": "2026-01-15",
+  "keywords": "creatina, suplemento, massa muscular, força, performance, treino, academia, fitness",
+  "slogan": "Máxima pureza, máximos resultados!",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://exemplo.com/nutrimax-logo.png",
+    "width": 200,
+    "height": 100
+  },
+  "funding": {
+    "@type": "MonetaryAmount",
+    "currency": "BRL",
+    "value": "1000000"
+  },
+  "hasEnergyConsumptionDetails": {
+    "@type": "EnergyConsumptionDetails",
+    "energyEfficiencyScaleMin": "A",
+    "energyEfficiencyScaleMax": "A+++"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://exemplo.com/creatina-monohidratada",
+    "url": "https://exemplo.com/creatina-monohidratada",
+    "name": "Creatina Monohidratada 100% Pura - NutriMax",
+    "description": "Página oficial do produto Creatina Monohidratada 100% Pura da NutriMax",
+    "inLanguage": "pt-BR",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "NutriMax Store",
+      "url": "https://exemplo.com"
+    }
+  },
+  "sameAs": [
+    "https://www.facebook.com/nutrimax/creatina",
+    "https://www.instagram.com/nutrimax/creatina",
+    "https://www.youtube.com/watch?v=creatina-nutrimax",
+    "https://mercadolivre.com.br/creatina-nutrimax",
+    "https://americanas.com.br/creatina-nutrimax"
+  ],
+  "potentialAction": [
+    {
+      "@type": "BuyAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://exemplo.com/carrinho?produto=creatina",
+        "actionPlatform": [
+          "https://schema.org/DesktopWebPlatform",
+          "https://schema.org/MobileWebPlatform"
+        ]
+      },
+      "expectsAcceptanceOf": {
+        "@type": "Offer",
+        "price": "89.90",
+        "priceCurrency": "BRL"
+      }
+    },
+    {
+      "@type": "ReviewAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://exemplo.com/creatina-monohidratada#avaliacoes"
+      }
+    }
+  ],
+  "hasVariant": [
+    {
+      "@type": "ProductModel",
+      "name": "Creatina Monohidratada 150g",
+      "sku": "CREAT-MONO-150G",
+      "image": "https://exemplo.com/creatina-150g.jpg",
+      "description": "Versão de 150g da Creatina Monohidratada 100% Pura",
+      "offers": {
+        "@type": "Offer",
+        "price": "49.90",
+        "priceCurrency": "BRL"
+      }
+    },
+    {
+      "@type": "ProductModel",
+      "name": "Creatina Monohidratada 600g",
+      "sku": "CREAT-MONO-600G",
+      "image": "https://exemplo.com/creatina-600g.jpg",
+      "description": "Versão de 600g da Creatina Monohidratada 100% Pura",
+      "offers": {
+        "@type": "Offer",
+        "price": "159.90",
+        "priceCurrency": "BRL"
+      }
+    }
+  ],
+  "isSimilarTo": [
+    {
+      "@type": "Product",
+      "name": "Creatina Creapure",
+      "brand": {
+        "@type": "Brand",
+        "name": "Competitor Brand"
+      }
+    }
+  ],
+  "isConsumableFor": [
+    {
+      "@type": "Thing",
+      "name": "Treino de Força"
+    },
+    {
+      "@type": "Thing",
+      "name": "Hipertrofia Muscular"
+    },
+    {
+      "@type": "Thing",
+      "name": "Performance Atlética"
+    }
+  ]
+}
